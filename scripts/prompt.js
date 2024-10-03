@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const contractJSON = require("../artifacts/contracts/PelToken.sol/PelToken.json");
 require("dotenv").config();
 
-const contractAddress = "0xc";
+const contractAddress = "0x92Ba00415f0a5e42Cb3CAD1A6659C10c781194a3";
 const contractABI = contractJSON.abi;
 
 async function main() {

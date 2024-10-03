@@ -2,10 +2,10 @@ const hre = require("hardhat");
 const fxRootContractABI = require("../fxRootContract.json");
 const contractJSON = require("../artifacts/contracts/PelToken.sol/PelToken.json");
 
-const contractAddress = "0xc";
+const contractAddress = "0x92Ba00415f0a5e42Cb3CAD1A6659C10c781194a3";
 const contractABI = contractJSON.abi;
 const fxERC721ContractAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de";
-const walletAddress = "0xw";
+const walletAddress = "0x124510F86a91d24e7bd93849B4Ad08b4cA408874";
 
 async function main() {
   const contract = await hre.ethers.getContractAt(contractABI, contractAddress);
